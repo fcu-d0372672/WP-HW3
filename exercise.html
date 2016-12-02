@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>溫度轉換</title>
+		<script language="javascript">
+		function tempTran(){
+		    var f = 0;
+		    return(f = (9/5)*c + 32);
+		}
+		var c = -1;
+		while((c<0)||(c>100)){
+		  if((c<0)||(c>100)){
+		    alert("請輸入正常攝氏溫度值");
+		    c = prompt("請輸入溫度","");
+		  }
+		}
+
+		alert(tempTran());
+
+		</script>
+	</head>
+	<body>
+		<h1 onclick="javascript:alert('Hello JavaScript!');">Welcome!</h1>
+	</body>
+</html>
